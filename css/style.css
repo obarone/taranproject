@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'TitilliumText22L-Regular' !important;
+	color: rgb(70,70,70) !important ;
+}
+body{
+	min-width: 1000px;
+}
+
+#all{
+	min-width: 1000px;
+	width: 100%;
+	height: 100%;
+}
+
+#left{
+	height: 100%;
+	width: 17%;
+	min-width: 200px;
+	position: fixed;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	background: rgb(33, 38, 40);
+}
+
+#left-in{
+	width: 110%;
+	height: 100%;
+	overflow-y: scroll;
+}
+#left-in > div{
+	width: 97%;
+}
+
+#content{
+	width: 73%;
+	min-width: 750px;
+	margin: 0px 5% 0px 22%;
+	min-height: 1000px;
+	float: right;
+}
+
+/* Left */
+
+#logo{
+	width: 100%;
+	height: auto;
+}
+#logo > a{
+	width: 100%; 
+	display: block;
+	height: 140px;
+	background: url("../img/logonew.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom; 
+}
+#logo > a > img{width: 80%;}
+
+#menu{
+	min-height:300px;
+	width: 100%;
+}
+
+#social{
+	margin-top: 20px;
+	width: 100%;
+}
+#nav > li > a {
+	display: block;
+	width: 90%;
+	height: 20px;
+	padding: 15px 10% 15px 0px;
+	text-align: right;
+	margin: 2px 0px 2px 0px;
+	font-family: 'TitilliumText22L-Medium' !important;
+	color: white !important;
+	transition-duration: 0.2s;
+	letter-spacing: 2px;
+}
+#nav > li > a:hover{
+	background: rgba(118, 0, 0, 0.5);
+}
+
+#nav > li > a.active{
+	background: rgba(118, 0, 0, 0.3);
+}
+
+#logo > a.active{
+	background:url("../img/logonew.png"),  rgba(118, 0, 0, 0.3);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:bottom; 
+}
+
+#logo > a:hover{
+	background:url("../img/logonew.png"),  rgba(118, 0, 0, 0.5);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:bottom; 
+}
+
+/* Content*/
+
+.page{
+	padding: 50px 0px 30px 0px;
+	width: 100%;
+	min-height: 350px;
+	box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05), inset 0 0.1em 0.1em 0 rgba(0,0,0,0.025);
+}
+.page:nth-child(1){
+	padding-top: 0px;
+}
+
+.page:last-child{
+	padding-bottom: 0px;
+}
+.title{
+	display: block;
+	width: 100%;
+	color: grey;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: center;
+
+}
+.cont{
+	display: block;
+	width: 100%;
+	color: grey;
+	font-family: Arial;
+	font-size: 17px;
+	line-height: 1.75em;
+	text-align: center;
+}
+/* Menu */
+#nav > li{
+	list-style: none;
+}
+#nav > li > .link{
+	background-size: 30px; 
+	background-repeat: no-repeat;
+	width: 30px; 
+	height: 30px; 
+	float: left; 
+	margin-left: 20px; 
+	margin-top: 10px;
+}
+#tar{
+	
+	background-image: url("../img/m/disco.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+#dis{
+	
+	background-image: url("../img/m/cal.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+#tou{
+	
+	background-image: url("../img/m/gallery.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+#vid{
+	
+	background-image: url("../img/m/storia.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+#imm{
+	
+	background-image: url("../img/m/cont.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+#con{
+	background-image: url("../img/m/ts.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left;
+	background-position-x: 10%;
+}
+
+/* social */
+#social > #sub{
+	width: 100%;
+	margin: auto;
+}
+
+#social > div > a{
+	display: block;
+	float: left;
+	margin: 0px 6% 0px 7%;
+	height: 50px;
+	width: 20%;
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+#face{background-image: url("../img/so/f.png")}
+#twit{background-image: url("../img/so/t.png")}
+#tube{background-image: url("../img/so/y.png")}
+
+/* Home */
+
+#head{
+	width: 100%;
+	margin: -400px auto 20px auto;
+}
+
+#disc{
+	background: #f5fafa;
+}
+
+#story{
+	width: 90%;
+	margin: 10px 5% 10px 5%;
+	min-height: 200px;
+	background: url("../img/storia.jpg");
+}
+
+/* Discografia */
+
+#store-row{
+	width: 320px;
+	height: 100px;
+	margin: auto;
+}
+
+#cni{background: url("../img/st/cnibutt.png"); background-size: contain;background-repeat: no-repeat;background-position: center;}
+#itunes{background: url("../img/st/itu.png"); background-size: contain;background-repeat: no-repeat;background-position: center;}
+#amazon{background: url("../img/st/amzn.png"); background-size: contain;background-repeat: no-repeat;background-position: center;}
+
+.store{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	margin-right: 10px;
+	float: left;
+}
+.store:last-child{
+	margin-right: 0px;
+}
+.album{
+	width: 300px;
+	min-height: 300px;
+	background: white;
+	margin: 10px;
+	float: left;
+	color: grey;
+	transition-duration: 1s;
+	border-radius: 5px;
+}
+.album:hover{
+	background: rgb(81,81,81);
+	color: white;
+}
+
+.album > .title{
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	color: inherit;
+	margin-top: 10px;
+}
+.album > .cover{
+	display: block;
+	height: 250px;
+	width: 250px;
+	margin: 25px;
+}
+#socd{background: url("../img/a/sonu.jpg"); background-size:contain;}
+#hjcd{background: url("../img/a/hjuri.jpg"); background-size:contain;}
+#sbcd{background: url("../img/a/sona-battenti.jpg"); background-size:contain;}
+#ldvd{background: url("../img/a/dvdlive.jpg"); background-size:contain;}
+#rocd{background: url("../img/a/rolica.jpg"); background-size:contain;}
+
+
+/* Gallery */
+.imgt{
+	display: block;
+	width: 225px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+
+/* Tour */
+
+.event{
+	display: block;
+	width: 800px;
+	height: 70px;
+	border-radius: 20px;
+	background: #f5fafa;
+	color: black;
+	margin: 10px auto 10px auto;
+}
+
+.data{
+	display: block;
+	margin-top: 20px;
+	width: 29%;
+	float: left;
+	font-size: 2em;
+	text-align: center;
+}
+.luogo{
+	display: block;
+	width: 70%;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	font-size: 1.6em;
+	font-family: monospace !important;
+	text-align: center;
+}
+
+.altro{
+	display: block;
+	width: 60%;
+	height: 30px;
+	margin-left: 5%;
+	float: left;
+	font-size: 0.8em;
+	font-family: Arial;
+}
+
+
+.light_cd{
+	height: 270px;
+	width: 270px;
+	float: left;
+	margin-top: 30px;
+}
+.light_txt{
+	float: left;
+	width: 430px;
+	height: auto;
+	margin: 30px;
+}
+
+#solg{
+	background: url('../img/a/sonu.jpg'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#hjlg{
+	background: url('../img/a/hjuri.jpg'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#sblg{
+	background: url('../img/a/sona-battenti.jpg'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#dvlg{
+	background: url('../img/a/dvdlive.jpg'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#rolg{
+	background: url('../img/a/rolica.jpg'); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* video */
+.video{
+	width: 45%;
+	height: 315px;
+	float: left;
+	margin: 2%;
+	margin-left: 3%;
+}
+
+.video > p{
+	display: block;
+	height: 61px;
+	width: auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Titillium';
+	font-weight: bold;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+#footer > a{
+	text-align: center;
+}
+
+#cni-f{
+	display: block;
+	width: 45%;
+	height: 100px;
+	margin: auto;
+	background: url("../img/st/cnibutt.png"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#faba{
+	color: grey !important;
+}
+#faba > a{
+	text-decoration: none;
+	color: grey !important;
+	text-align: center;
+	width: 100%;
+}
